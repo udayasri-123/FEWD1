@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    
+    <!-- Local Bootstrap CSS -->
+    <link rel="stylesheet" href="C:\Users\DELL\OneDrive\Documents\Desktop\Week3\bootstrap-5.3.3-dist\bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5 p-4 bg-white shadow-lg rounded">
+        <h2 class="text-center text-danger">Share Your Feedback</h2>
+        <p class="text-center text-muted">We appreciate your thoughts!</p>
+
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Your Name (Optional):</label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter name">
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email (Optional):</label>
+                    <input type="email" id="email" class="form-control" placeholder="example@email.com">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone (Optional):</label>
+                <input type="tel" id="phone" class="form-control" placeholder="Enter phone number">
+            </div>
+
+            <div class="mb-3">
+                <label for="rating" class="form-label">How was your experience?</label>
+                <select id="rating" class="form-select">
+                    <option selected>Choose...</option>
+                    <option value="5">🌟🌟🌟🌟🌟 Excellent</option>
+                    <option value="4">🌟🌟🌟🌟 Good</option>
+                    <option value="3">🌟🌟🌟 Average</option>
+                    <option value="2">🌟🌟 Poor</option>
+                    <option value="1">🌟 Very Bad</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="questions" class="form-label">Do you have any questions?</label>
+                <textarea id="questions" class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="comments" class="form-label">Additional Comments:</label>
+                <textarea id="comments" class="form-control" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-danger w-100">Submit Feedback</button>
+        </form>
+    </div>
+    <script src="C:\Users\DELL\OneDrive\Documents\Desktop\Week3\bootstrap-5.3.3-dist\bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
